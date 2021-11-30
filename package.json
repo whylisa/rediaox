@@ -1,0 +1,48 @@
+{
+  "name": "rediaox",
+  "version": "1.0.0",
+  "description": "react状态管理",
+  "author": "whylisa",
+  "license": "MIT",
+  "repository": "https://gitee.com/proinnova_mingyi_liu/rediaox.git",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.ts",
+  "types": "src/index.ts",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "prepare": "run-s build"
+  },
+  "peerDependencies": {
+    "immer": "^9.0.0",
+    "react": "^17.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^25.1.4",
+    "@types/lodash": "^4.14.168",
+    "@types/react": "^16.9.27",
+    "@types/react-dom": "^16.9.7",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@umijs/fabric": "^2.5.7",
+    "cross-env": "^7.0.2",
+    "immer": "^9.0.0",
+    "lodash": "^4.17.21",
+    "microbundle-crl": "^0.13.10",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.4",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "typescript": "^4.2.2"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
