@@ -4,6 +4,7 @@
   "description": "react状态管理",
   "author": "whylisa",
   "license": "MIT",
+  "repository": "https://github.com/whylisa/rediaox.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.ts",
